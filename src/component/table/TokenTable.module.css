@@ -1,0 +1,18 @@
+@keyframes highlight {
+  0% {
+    background-color: rgba(22, 28, 33);
+  }
+  50% {
+    background-color: rgba(81, 255, 170, 0.4);
+  }
+  100% {
+    background-color: rgba(22, 28, 33);
+  }
+}
+.tokensTableRowHighlight {
+  background-color: rgba(22, 28, 33);
+  animation: highlight 1.5s ease-out forwards;
+}
+.tokensTableRow {
+  background-color: rgba(22, 28, 33);
+}

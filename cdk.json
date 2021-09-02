@@ -1,0 +1,32 @@
+{
+  "app": "bin/infrastructure.js",
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": true,
+    "repo": {
+      "owner": "sendit-finance",
+      "name": "website",
+      "githubConnectionArn": "removed",
+      "branch": "main"
+    },
+    "certificateAlternativeNames": "*.sendit.finance",
+    "hostName": "sendit.finance",
+    "certificateArn": "removed",
+    "zone": {
+      "hostedZoneId": "removed",
+      "zoneName": "sendit.finance"
+    },
+    "testing": {
+      "hostName": "just.sendit.finance",
+      "staticAssetsHostName": "static-testing.sendit.finance"
+    },
+    "staging": {
+      "hostName": "staging.sendit.finance",
+      "staticAssetsHostName": "static-staging.sendit.finance"
+    },
+    "production": {
+      "hostName": "sendit.finance",
+      "staticAssetsHostName": "static.sendit.finance",
+      "redirectHostName": "www.sendit.finance"
+    }
+  }
+}

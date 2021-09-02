@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="866px" height="345px" viewBox="0 0 866 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Logo-Text-Horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(-104.000000, -329.500000)">
+            <g id="Group" transform="translate(16.000000, 248.322230)">
+                <path d="M322.716686,90.4810291 L408.030868,347.760842 C411.681301,358.76936 405.716394,370.652788 394.707876,374.303221 C392.575902,375.010185 390.344315,375.370535 388.098182,375.370535 L217.469819,375.370535 C205.871839,375.370535 196.469819,365.968515 196.469819,354.370535 C196.469819,352.124403 196.830169,349.892816 197.537133,347.760842 L282.851315,90.4810291 C286.501748,79.4725109 298.385176,73.5076043 309.393694,77.1580373 C315.689544,79.2457457 320.628978,84.1851798 322.716686,90.4810291 Z" id="Rectangle" fill="#51FFAA" transform="translate(302.784001, 202.870535) rotate(45.000000) translate(-302.784001, -202.870535) "></path>
+                <text id="SendIt" font-family="Helvetica-Bold, Helvetica" font-size="150" font-weight="bold" letter-spacing="0.333822321" fill="#FFFFFF">
+                    <tspan x="463" y="322">SendIt</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

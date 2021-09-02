@@ -1,0 +1,9 @@
+node_modules
+build
+.DS_Store
+cdk.out
+.env
+.env.local
+.vscode/settings.json
+.next
+out

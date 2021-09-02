@@ -1,0 +1,131 @@
+@import 'syntax';
+
+body {
+  font-family: Proxima Nova Futura, Futura-Medium, 'Futura Medium',
+    'Century Gothic', CenturyGothic, 'Apple Gothic', AppleGothic, 'URW Gothic L',
+    'Avant Garde', sans-serif;
+}
+
+.stars {
+  background: url('/img/stars.svg') 50% top no-repeat;
+}
+
+.satellite {
+  position: absolute;
+  width: 120px;
+  height: 70px;
+  left: -250px;
+  top: -50px;
+  background: transparent url('/img/satellite.svg') no-repeat;
+}
+
+.spin {
+  animation: spin 360s linear infinite;
+  position: absolute;
+}
+
+.flyingsaucer {
+  align-self: flex-end;
+  width: 200px;
+  height: 150px;
+  right: 0px;
+  background: transparent url('/img/flying-saucer.svg') no-repeat;
+  background-position: 0 30px;
+  animation: flyingsaucerMove 120s infinite;
+}
+
+@keyframes flyingsaucerMove {
+  0% {
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-500px);
+  }
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+ul {
+  @apply mb-8;
+}
+
+blockquote {
+  @apply border-l-4;
+  @apply border-gray-400;
+  @apply pl-4;
+  @apply text-gray-700;
+  @apply text-lg;
+}
+
+nav {
+  @apply text-gray-300;
+}
+
+.alert {
+  @apply my-8;
+  @apply rounded-md;
+  @apply p-4;
+}
+
+.alert p {
+  @apply my-0;
+  @apply font-medium;
+}
+
+.alert.alert-success,
+.alert.alert-success * {
+  @apply bg-green-50;
+  @apply text-green-800;
+}
+
+.alert.alert-warning,
+.alert.alert-warning * {
+  @apply bg-green-50;
+  @apply text-green-800;
+}
+
+.footnotes {
+  @apply text-sm;
+}
+
+.footnotes li {
+  @apply mb-4;
+}
+
+.footnotes li a:last-child {
+  @apply ml-2;
+  @apply no-underline;
+}
+
+ul.toc li {
+  @apply p-0;
+  @apply m-0;
+}
+
+ul.toc li::before {
+  @apply hidden;
+}
+
+ul.toc h3 {
+  @apply p-0;
+  @apply m-0;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tooltip .tooltip-text {
+  @apply invisible;
+}
+
+.tooltip:hover .tooltip-text,
+.tooltip-text:hover {
+  @apply visible;
+}

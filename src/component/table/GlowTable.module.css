@@ -1,0 +1,47 @@
+.glowTableWrap {
+  background: linear-gradient(
+    45deg,
+    rgba(81, 255, 170, 0.4),
+    rgba(207, 255, 231, 0.5)
+  );
+  padding: 1px;
+  box-shadow: 0px 0px 10px rgba(81, 255, 170, 0.1);
+}
+
+.glowTableWrap table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.glowTableWrap thead {
+  border-color: inherit;
+  border-collapse: collapse;
+}
+.glowTableWrap tbody {
+  border-color: inherit;
+  border-collapse: collapse;
+}
+.glowTableWrap thead tr {
+  border-color: #0f1218;
+  border-width: 0 0 1px;
+}
+.glowTableWrap tbody tr:not(:last-child) {
+  border-color: #0f1218;
+  border-width: 0 0 1px;
+}
+.glowTableWrap th {
+  border-color: inherit;
+}
+
+.glowTableWrap thead tr:first-child th:first-child {
+  border-radius: 4px 0 0 0;
+}
+.glowTableWrap thead tr:first-child th:last-child {
+  border-radius: 0 4px 0 0;
+}
+.glowTableWrap tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 4px;
+}
+.glowTableWrap tbody tr:last-child td:last-child {
+  border-radius: 0 0 4px 0;
+}
